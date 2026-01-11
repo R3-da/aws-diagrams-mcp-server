@@ -1,5 +1,12 @@
 # AWS Diagrams MCP Server
 
+The following prompt was used to generate the AWS architecture diagram below:
+
+> Create an AWS data pipeline architecture diagram showing data producers streaming events into Amazon Kinesis Data Streams, processing and transforming the data using AWS Glue ETL, and loading the curated data into Amazon Redshift for analytics. The diagram should also include BI and reporting consumers and clearly illustrate the end-to-end data flow.
+
+![AWS Diagram](./generated-diagrams/kinesis_glue_redshift_pipeline.png)
+
+
 ## VS Code Setup
 
 Copy the following configuration into your `mcp.json` file located in the `.vscode` directory:
@@ -46,8 +53,5 @@ You can also install the MCP servers manually using the following links:
 - **AWS Diagram MCP Server**  
   https://insiders.vscode.dev/redirect/mcp/install?name=AWS%20Diagram%20MCP%20Server&config=%7B%22command%22%3A%22uvx%22%2C%22args%22%3A%5B%22awslabs.aws-diagram-mcp-server%22%5D%2C%22env%22%3A%7B%22FASTMCP_LOG_LEVEL%22%3A%22ERROR%22%7D%2C%22autoApprove%22%3A%5B%5D%2C%22disabled%22%3Afalse%7D
 
-## Example Prompt
 
-The following prompt was used to generate the example AWS architecture diagram:
 
-> Create an AWS data pipeline architecture diagram showing data producers streaming events into Amazon Kinesis Data Streams, processing and transforming the data using AWS Glue ETL, and loading the curated data into Amazon Redshift for analytics. The diagram should also include BI and reporting consumers and clearly illustrate the end-to-end data flow.
