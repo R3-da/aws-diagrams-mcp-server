@@ -7,7 +7,7 @@ The following prompt was used to generate the AWS architecture diagram below:
 ![AWS Diagram](./generated-diagrams/kinesis_glue_redshift_pipeline.png)
 
 
-## VS Code Setup
+## VS Code MCP Setup (make sure you have AWS CLI Installed and Configured) 
 
 Copy the following configuration into your `mcp.json` file located in the `.vscode` directory:
 
